@@ -1,0 +1,38 @@
+li{
+    padding: 15px;
+    border: 1px solid black;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child{
+    border-bottom:1px solid black;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+button{
+    padding: 5px 10px;
+}
+
+input{
+    height: 23px;
+}
+
+.container{
+    margin: 20px;
+}
+
+.form-container{
+    display: flex;
+    /* flex-grow: 1; */
+}
+
+.inner{
+    flex-grow: 1;
+}
